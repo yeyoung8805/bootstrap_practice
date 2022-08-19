@@ -1,0 +1,1 @@
+import bootstrap from 'bootstrap/dist/js/bootstrap.bundle'; //node_modules 안에 있는 bootstrap/으로 바로 접근 가능
