@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "dev": "parcel index.html --port 1111",
+    "dev": "parcel index.html",
     "build": "parcel build index.html"
   },
   "repository": {
