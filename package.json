@@ -19,15 +19,13 @@
   },
   "homepage": "https://github.com/yeyoung8805/bootstrap_practice#readme",
   "devDependencies": {
+    "autoprefixer": "^10.4.8",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-static-files-copy": "^2.6.0",
+    "postcss": "^8.4.16",
     "sass": "^1.54.4"
   },
   "staticFiles": {
     "staticPath": "static"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.11.6",
-    "bootstrap": "^5.2.0"
   }
 }
