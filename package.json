@@ -28,7 +28,7 @@
   "staticFiles": {
     "staticPath": "static"
   },
-  "browsersList": [
+  "browserslist": [
     "> 1%",
     "last 2 versions"
   ]
