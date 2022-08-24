@@ -3,8 +3,14 @@
 //import 대신에 require() 사용
 //export 대신에 module.exports 사용
 
-//import
-require();
+//import autoprefixer from 'autoprefixer';
+const autoprefixer = require("autoprefixer");
 
-//export
-module.exports;
+// export {
+//   plugins: [
+//     autoprefixer
+//   ],
+// };
+module.exports = {
+  plugins: [autoprefixer],
+};
