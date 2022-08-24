@@ -1,1 +1,22 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions"; //함수
+
+// Required
+@import "../node_modules/bootstrap/scss/variables"; //변수
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins"; //재활용할 코드들
+@import "../node_modules/bootstrap/scss/root";
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss"; //node_modules 안에 있는 bootstrap/으로 바로 접근 불가하므로 상대 경로 이용
