@@ -1,1 +1,6 @@
-import bootstrap from 'bootstrap/dist/js/bootstrap.bundle'; //node_modules 안에 있는 bootstrap/으로 바로 접근 가능
+import Dropdown from "bootstrap/js/dist/dropdown"; //bootstrap 안의 dropdown만 불러온다(성능 최적화를 위해)
+
+const dropdownElementList = document.querySelectorAll(".dropdown-toggle");
+const dropdownList = [...dropdownElementList].map(
+  (dropdownToggleEl) => new Dropdown(dropdownToggleEl)
+);
